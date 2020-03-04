@@ -12,10 +12,12 @@ function recursiveSumOf(list) {
 let testList = [2, 4, 6, 8, 10];
 
 //Exercise 1 -> Counting Sheep
-//Input -> number of sheep
-// Output -> number of sheet + message
-// Recursive Input -> Number of sheep -1
-//
+
+//Input -> number of sheep (n)
+//Exit Case -> n === 0
+// Recursive Input -> ${n}-1
+// Recursive Output -> n: + Another sheep jumps over the fence
+// Exit Output -> All of the sheep jumped over the fence
 
 function recursiveCountSheep(n) {
   //Base Case -> Exit condition

@@ -20,11 +20,10 @@ let testList = [2, 4, 6, 8, 10];
 function recursiveCountSheep(n) {
   //Base Case -> Exit condition
   if (n === 0) {
-    return "All of sheep jumped over the fence.";
+    return console.log("All of sheep jumped over the fence.");
   }
 
   //Recursive Case
-  return (
-    `${n}: Another sheep jumps over the fence` + recursiveCountSheep(n - 1)
-  );
+  console.log(`${n}: Another sheep jumps over the fence`);
+  recursiveCountSheep(n - 1);
 }

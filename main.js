@@ -55,6 +55,24 @@ function recursivePowerCalculator(base, power) {
   return `${base}^${power} = ${result}`;
 }
 
+// Exercise 3 Reverse String
+
+// Input -> String
+// Exit Case -> string.length === 0
+// Recursive Input -> newString
+// Recursive Output ->
+// Exit Output ->
+
+function recursiveReverseString(string) {
+  //Base case -> Exit Condition
+  if (string.length === 0) {
+    return "";
+  }
+
+  //Recursive case
+  return recursiveReverseString(string.substr(1)) + string.charAt(0);
+}
+
 // Exercise
 
 // Input ->

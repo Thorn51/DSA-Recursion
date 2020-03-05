@@ -173,6 +173,19 @@ function recursiveMaze() {
   //Recursive Case
 }
 
+// Exercise 9 -> Find all of the ways out of the maze
+
+// Input ->
+// Exit Case ->
+// Recursive Input ->
+// Recursive Output ->
+// Exit Output ->
+
+function recursiveMazeTwo() {
+  //Base Case -> Exit condition
+  //Recursive Case
+}
+
 // Exercise
 
 // Input ->

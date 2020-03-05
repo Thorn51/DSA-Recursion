@@ -160,6 +160,19 @@ function recursiveFactorial(total = 0, n) {
   return recursiveFactorial(total, n - 1);
 }
 
+// Exercise 8 -> Find a way out of the maze
+
+// Input ->
+// Exit Case ->
+// Recursive Input ->
+// Recursive Output ->
+// Exit Output ->
+
+function recursiveMaze() {
+  //Base Case -> Exit condition
+  //Recursive Case
+}
+
 // Exercise
 
 // Input ->

@@ -93,13 +93,32 @@ function recursiveNthTriangularNumber(n) {
 
 // Exercise 5 -> String Splitter
 
-// Input ->
-// Exit Case ->
+// Input -> string, character
+// Exit Case -> string.length === 0
 // Recursive Input ->
 // Recursive Output ->
 // Exit Output ->
 
-function recursiveStringSplitter() {}
+let splitString = [];
+
+function recursiveStringSplitter(string, character) {
+  //Base Case -> Exit condition
+  if (string.length === 0) {
+    return;
+  }
+  // Recursive case
+  const indexOfCharacter = string.indexOf(character);
+
+  if (indexOfCharacter !== -1) {
+    splitString.push(string.slice(0, indexOfCharacter));
+    let newString = string.substring(indexOfCharacter + 1);
+    return recursiveStringSplitter(newString, character);
+  } else {
+    let length = string.length;
+    splitString.push(string.slice(0, length));
+    return splitString;
+  }
+}
 
 // Exercise
 

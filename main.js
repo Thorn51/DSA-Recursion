@@ -186,6 +186,18 @@ function recursiveMazeTwo() {
   //Recursive Case
 }
 
+// Exercise 10 -> Anagrams
+
+// Input ->
+// Exit Case ->
+// Recursive Input ->
+// Recursive Output ->
+// Exit Output ->
+
+function recursiveAnagrams() {
+  //Base Case -> Exit condition
+  //Recursive Case
+}
 // Exercise
 
 // Input ->

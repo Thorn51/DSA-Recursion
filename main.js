@@ -139,15 +139,25 @@ function recursiveFibonacci(result, len) {
 
 // Exercise 7 -> Factorial
 
-// Input ->
-// Exit Case ->
-// Recursive Input ->
-// Recursive Output ->
-// Exit Output ->
+// Input -> total running total of factorial, number(integer)
+// Exit Case -> number === 0
+// Recursive Input -> result, number
+// Recursive Output -> result.push(n-1), number
+// Exit Output -> factorial of given number
 
-function recursiveFactorial() {
+function recursiveFactorial(total = 0, n) {
   //Base Case -> Exit Condition
+  if (n === 1) {
+    return total;
+  }
   //Recursive Case
+  if (total === 0) {
+    total = n * (n - 1);
+  } else {
+    total = total * (n - 1);
+  }
+
+  return recursiveFactorial(total, n - 1);
 }
 
 // Exercise

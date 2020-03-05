@@ -198,6 +198,19 @@ function recursiveAnagrams() {
   //Base Case -> Exit condition
   //Recursive Case
 }
+// Exercise 11 -> Org Chart
+
+// Input ->
+// Exit Case ->
+// Recursive Input ->
+// Recursive Output ->
+// Exit Output ->
+
+function recursiveOrgChart() {
+  //Base Case -> Exit condition
+  //Recursive Case
+}
+
 // Exercise
 
 // Input ->

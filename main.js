@@ -122,11 +122,11 @@ function recursiveStringSplitter(string, character) {
 
 // Exercise 6 -> Fibonacci
 
-// Input -> Number (n) that we want to know the fibonacci sequence of
-// Exit Case -> n === 0
-// Recursive Input -> n - 1
-// Recursive Output -> Fibonacci sequence
-// Exit Output -> none
+// Input -> result(arr) first numbers in sequence(0,1), len(integer) length of sequence
+// Exit Case -> result.lenght >= len + 1
+// Recursive Input -> result, len
+// Recursive Output -> Updated result
+// Exit Output -> final result containing Fibonacci sequence
 
 function recursiveFibonacci(result, len) {
   //Base Case -> Exit Condition

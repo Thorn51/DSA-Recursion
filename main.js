@@ -120,6 +120,18 @@ function recursiveStringSplitter(string, character) {
   }
 }
 
+// Exercise 6 -> Fibonacci
+
+// Input ->
+// Exit Case ->
+// Recursive Input ->
+// Recursive Output ->
+// Exit Output ->
+
+function recursiveFibonacci() {
+  //Base Case -> Exit Condition
+  // Recursive Case
+}
 // Exercise
 
 // Input ->

@@ -65,3 +65,7 @@ Write a recursive function that splits a string based on a separator (similar to
 ### 6. Fibonacci
 
 Write a recursive function that prints the Fibonacci sequence of a given number. The Fibonacci sequence is a series of numbers in which each number is the sum of the 2 preceding numbers. For example, the 7th Fibonacci number in a Fibonacci sequence is 13. The sequence looks as follows: 1, 1, 2, 3, 5, 8, 13.
+
+### 7. Factorial
+
+Write a recursive function that finds the factorial of a given number. The factorial of a number can be found by multiplying that number by each number between itself and 1. For example, the factorial of 5 is 5 _ 4 _ 3 _ 2 _ 1 = 120.

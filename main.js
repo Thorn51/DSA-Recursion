@@ -99,12 +99,10 @@ function recursiveNthTriangularNumber(n) {
 // Recursive Output ->
 // Exit Output ->
 
-let splitString = [];
-
-function recursiveStringSplitter(string, character) {
+function recursiveStringSplitter(string, character, splitString = []) {
   //Base Case -> Exit condition
   if (string.length === 0) {
-    return;
+    return splitString;
   }
   // Recursive case
   const indexOfCharacter = string.indexOf(character);
@@ -112,11 +110,11 @@ function recursiveStringSplitter(string, character) {
   if (indexOfCharacter !== -1) {
     splitString.push(string.slice(0, indexOfCharacter));
     let newString = string.substring(indexOfCharacter + 1);
-    return recursiveStringSplitter(newString, character);
+    return recursiveStringSplitter(newString, character, splitString);
   } else {
     let length = string.length;
     splitString.push(string.slice(0, length));
-    return splitString;
+    return recursiveStringSplitter("", length, splitString);
   }
 }
 
@@ -138,6 +136,20 @@ function recursiveFibonacci(result, len) {
   // Recursive Case
   return recursiveFibonacci(result, len);
 }
+
+// Exercise 7 -> Factorial
+
+// Input ->
+// Exit Case ->
+// Recursive Input ->
+// Recursive Output ->
+// Exit Output ->
+
+function recursiveFactorial() {
+  //Base Case -> Exit Condition
+  //Recursive Case
+}
+
 // Exercise
 
 // Input ->

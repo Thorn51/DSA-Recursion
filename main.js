@@ -60,8 +60,8 @@ function recursivePowerCalculator(base, power) {
 // Input -> String
 // Exit Case -> string.length === 0
 // Recursive Input -> newString
-// Recursive Output ->
-// Exit Output ->
+// Recursive Output -> Reverse order of string
+// Exit Output -> none
 
 function recursiveReverseString(string) {
   //Base case -> Exit Condition
@@ -71,6 +71,25 @@ function recursiveReverseString(string) {
 
   //Recursive case
   return recursiveReverseString(string.substr(1)) + string.charAt(0);
+}
+
+// Exercise
+
+// Input -> integer n
+// Exit Case -> n <= 1
+// Recursive Input -> n - 1
+// Recursive Output -> nth triangular number
+// Exit Output -> 1
+
+function recursiveNthTriangularNumber(n) {
+  //Base Case -> Exit Condition
+  if (n <= 1) {
+    return 1;
+  }
+
+  //Recursive Case
+  let nthNumber = n + recursiveNthTriangularNumber(n - 1);
+  return nthNumber;
 }
 
 // Exercise

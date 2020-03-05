@@ -211,10 +211,15 @@ function recursiveOrgChart() {
   //Recursive Case
 }
 
-// Exercise
+// Exercise 12 -> Binary Representation
 
 // Input ->
 // Exit Case ->
 // Recursive Input ->
 // Recursive Output ->
 // Exit Output ->
+
+function recursiveBinaryRepresentation() {
+  //Base Case -> Exit condition
+  //Recursive Case
+}

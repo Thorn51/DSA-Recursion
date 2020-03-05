@@ -73,7 +73,7 @@ function recursiveReverseString(string) {
   return recursiveReverseString(string.substr(1)) + string.charAt(0);
 }
 
-// Exercise
+// Exercise 4 -> nth Triangular Number
 
 // Input -> integer n
 // Exit Case -> n <= 1
@@ -88,9 +88,18 @@ function recursiveNthTriangularNumber(n) {
   }
 
   //Recursive Case
-  let nthNumber = n + recursiveNthTriangularNumber(n - 1);
-  return nthNumber;
+  return n + recursiveNthTriangularNumber(n - 1);
 }
+
+// Exercise 5 -> String Splitter
+
+// Input ->
+// Exit Case ->
+// Recursive Input ->
+// Recursive Output ->
+// Exit Output ->
+
+function recursiveStringSplitter() {}
 
 // Exercise
 

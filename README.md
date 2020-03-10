@@ -14,6 +14,17 @@ Introduction module on data structures and algorithms including:
 
 ## Recursive Algorithms
 
+```
+const sumOf = function(list) {
+    // Base case
+    if (list.length === 1) {
+        return list[0];
+    }
+    // General case
+    return list[0] + sumOf(list.slice(1));
+}
+```
+
 ### Exercises
 
 #### 1. Counting Sheep
